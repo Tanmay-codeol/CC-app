@@ -1,5 +1,7 @@
 # CF AI Chat
 
+Live at: https://cf-ai-chat.tanmaysharma0852.workers.dev
+
 A small AI powered chat app built on Cloudflare. You type a message, it gets sent to Llama 3.3 running on Workers AI, and the reply shows up in the browser. Each conversation remembers its own history using a Durable Object, so the assistant has context from earlier messages in the same session.
 
 ## How it works
